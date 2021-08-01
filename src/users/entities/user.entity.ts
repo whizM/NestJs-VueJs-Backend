@@ -13,8 +13,44 @@ export class UserEntity {
   age: string;
 
   @Column()
-  address: string;
+  cep: string;
+
+  @Column()
+  street: string;
+
+  @Column()
+  neighbourhood: string;
+
+  @Column()
+  city: string;
+
+  @Column()
+  state: string;
 
   @Column()
   github: string;
 }
+/* 
+@Entity()
+export class UserEntity {
+  @PrimaryGeneratedColumn()
+  id: number;
+
+  @Column()
+  name: string;
+
+  @Column()
+  age: string;
+
+  @Column()
+  cep: string;
+
+  @Column()
+  street: string;
+
+ 
+
+  @Column()
+  github: string;
+} */
+
