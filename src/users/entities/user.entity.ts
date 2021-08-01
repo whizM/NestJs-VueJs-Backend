@@ -1,15 +1,16 @@
+/* eslint-disable prettier/prettier */
 import { Column, Entity, PrimaryColumn, PrimaryGeneratedColumn } from 'typeorm';
 
 @Entity()
 export class UserEntity {
   @PrimaryGeneratedColumn()
-  id: string;
+  id: number;
 
   @Column()
   name: string;
 
   @Column()
-  idade: string;
+  age: string;
 
   @Column()
   address: string;

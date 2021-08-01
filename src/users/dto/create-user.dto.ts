@@ -1,7 +1,7 @@
 export class CreateUserDto {
-  id: string;
+  id: number;
   name: string;
-  idade: string;
+  age: string;
   address: string;
   github: string;
 }
