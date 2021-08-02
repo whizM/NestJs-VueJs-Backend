@@ -29,28 +29,17 @@ export class UserEntity {
 
   @Column()
   github: string;
+
+  @Column()
+  githubId: number;
+  
+  @Column()
+  nameUser: string;
+  
+  @Column()
+  avatar_url: string;
+  
+  @Column()
+  bio: string;
 }
-/* 
-@Entity()
-export class UserEntity {
-  @PrimaryGeneratedColumn()
-  id: number;
-
-  @Column()
-  name: string;
-
-  @Column()
-  age: string;
-
-  @Column()
-  cep: string;
-
-  @Column()
-  street: string;
-
- 
-
-  @Column()
-  github: string;
-} */
 

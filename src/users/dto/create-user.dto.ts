@@ -8,4 +8,8 @@ export class CreateUserDto {
   city: string;
   state: string;
   github: string;
+  githubId: number;
+  nameUser: string;
+  avatar_url: string;
+  bio: string;
 }
